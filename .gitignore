@@ -1,0 +1,27 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data & vector store (don't commit company files or embeddings)
+data/vector_store/
+data/reports/
+data/csv_files/
+data/doc_files/
+data/pdf_files/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
